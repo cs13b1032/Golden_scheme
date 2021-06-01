@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "d1b69c7c-7d25-4f50-8ee6-25bd31e3643a",
+		"name": "2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\": \"phani\",\n    \"mobile\": 9010199290,\n    \"title\": \"Mr\",\n    \"door_number\": \"3A\",\n    \"street\": \"Stree One\",\n    \"area\": \"Area 51\",\n    \"state\": \"Andhra Pradesh\",\n    \"city\": \"Nellore\",\n    \"pincode\": 524223,\n    \"plan_price\": 1000,\n    \"password\": \"!@#!@#@#\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4444/create-user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4444",
+					"path": [
+						"create-user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Make Payment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
